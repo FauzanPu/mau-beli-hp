@@ -44,3 +44,46 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+/* ===== MODERN FOOTER ===== */
+.footer {
+    background-color: #111;
+    color: #ddd;
+    padding: 40px 20px 15px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.footer p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 8px;
+    filter: invert(90%);
+    transition: 0.3s ease;
+}
+
+.social-icons a img:hover {
+    filter: invert(70%) sepia(100%) saturate(500%) hue-rotate(170deg);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+    font-size: 13px;
+    color: #888;
+}
